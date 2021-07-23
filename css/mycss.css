@@ -67,7 +67,8 @@ cbd6cd
 */
 
 body {
-  background-color: #f5f1eb;
+  /*background-color: #f5f1eb;*/
+  background-color: #E6E3E3;
   color: #333333;
 }
 
@@ -89,12 +90,19 @@ body {
 
 /* overwriting some of the color schemes */
 .bg-light {
-  background-color: #fafafa !important;
+  /*background-color: #fafafa !important;*/
+  background-color: #FF8400 !important;
 }
 
 .navbar-light .navbar-text {
   color: rgba(0.0, 0, 0, 0.5);
 }
+
+
+.navbar-brand {
+  color: rgba(0.0, 61, 124, 0.5);
+}
+
 
 /*.publicationListDiv {
   font-size: 0.8rem;
