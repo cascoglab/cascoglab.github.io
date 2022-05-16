@@ -67,9 +67,13 @@ cbd6cd
 */
 
 body {
+  /* for website pre-2022 */
   /*background-color: #f5f1eb;*/
-  background-color: #E6E3E3;
-  color: #333333;
+  /*background-color: #E6E3E3;
+  color: #333333;*/
+
+  background-color: #ffffff;
+  color: #333f48; /*font color*/
 }
 
 
@@ -91,11 +95,15 @@ body {
 /* overwriting some of the color schemes */
 .bg-light {
   /*background-color: #fafafa !important;*/
-  background-color: #FF8400 !important;
+  /*background-color: #FF8400 !important;*/
+  /* f8971f = UT lighter orange from secondary color palette https://brand.utexas.edu/identity/color/ */
+  background-color: #f8971f !important; 
 }
 
 .navbar-light .navbar-text {
-  color: rgba(0.0, 0, 0, 0.5);
+  /* for website pre-2022 */
+  /*color: rgba(0.0, 0, 0, 0.5);*/
+  color: #333f48;
 }
 
 
@@ -103,6 +111,30 @@ body {
   color: rgba(0.0, 61, 124, 0.5);
 }
 
+/* unvisited link */
+a:link {
+  /* 00a9b7 = UT light blue from secondary color palette */
+  color: #00a9b7;
+}
+
+/* visited link */
+a:visited {
+  /*color: green;*/
+}
+
+/* mouse over link */
+a:hover {
+  /*color: hotpink;*/
+}
+
+/* selected link */
+a:active {
+  /*color: blue;*/
+}
+
+/*.publicationListDiv {
+  font-size: 0.8rem;
+}*/
 
 /*.publicationListDiv {
   font-size: 0.8rem;
