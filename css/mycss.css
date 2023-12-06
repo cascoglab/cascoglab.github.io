@@ -215,5 +215,19 @@ a:active {
   margin-right: auto;
 }
 
+.flyer-info {
+  padding-bottom: 30px;
+  display: inline-block;
+  padding-left: 30px; 
+}
 
+ .flyer-info img {
+    width: 350px;
+   /* padding-bottom: 30px;*/ }
+    @media screen and (min-width: 558px) {
+      .flyer img {
+        float: left;
+        padding-right: 40px; } 
+    }
 
+   
