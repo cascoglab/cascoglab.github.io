@@ -208,12 +208,6 @@ a:active {
       padding-right: 40px; } 
   }
 
-.col-md-9 img{
-  display: inline-block;
-  padding-left: 40px;
-  float: right;
-  margin-right: auto;
-}
 
 .flyer-info {
   padding-bottom: 30px;
